@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class linear_search {
+class Binary_search {
     private boolean search(int arr[],int size,int element)
     {
        int start=0;
@@ -18,10 +18,10 @@ class linear_search {
 
            mid=start+(end-start)/2;
        }
-       return true;
+       return false;
     }
     public static void main(String args[])
-    {linear_search n=new linear_search();
+    {Binary_search n=new Binary_search();
        Scanner sc=new Scanner(System.in);
         System.out.println("input size");
         int x=sc.nextInt();
@@ -37,3 +37,4 @@ class linear_search {
         System.out.println(answer);
     }
 }
+
